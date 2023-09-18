@@ -21,6 +21,8 @@ public struct TransactionModel {
     }
 }
 
+/// Is there a better way I can test the timer?
+/// I feel it's not ideal to have to pass in the `timer` and `getCurrentDate` to test this one thing.
 public class TransactionCellViewModel: ObservableObject {
     let model: TransactionModel
     var timer: Timeable
