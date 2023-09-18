@@ -1,0 +1,6 @@
+framework module ViewInspector {
+  umbrella header "ViewInspector-umbrella.h"
+
+  export *
+  module * { export * }
+}
